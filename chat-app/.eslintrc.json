@@ -1,0 +1,12 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": ["airbnb", "airbnb/hooks", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "quotes": [2, "single"],
+    "prettier/prettier": ["error"]
+  }
+}
